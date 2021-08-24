@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FormenApp</title>
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+<canvas id="canvas" width="800" height="800"></canvas>
+
+<div id="controls">
+    <p><label>Füllen: <input id="fillBox" type="checkbox" checked="checked"></label></p>
+
+    <div class="lightBorder">
+        <p><label>Füllfarbe: <input id="fillColor" type="color" value="#24B0D5"></label></p>
+    </div>
+
+    <div class="lightBorder">
+        <p><label>Linien Breite: <input id="lineWidth" type="range" step="1" min="1" max="200" value="4"></label></p>
+    </div>
+
+    <div class="lightBorder">
+        <p><input type="radio" name="shape" value="line" checked="checked">Linie</p>
+        <p><input type="radio" name="shape" value="circle">Kreis</p>
+        <p><input type="radio" name="shape" value="polygon">Polygon</p>
+    </div>
+
+    <p><label>Anzahl Polygonseiten: <input id="polygonSides" type="range" step="1" min="3" max="10"></label></p>
+    <p><label>Achse des Polygons: <input id="polygonAngle" type="range" step="22.5" min="0" max="90"></label></p>
+
+</div>
+
+</body>
+</html>

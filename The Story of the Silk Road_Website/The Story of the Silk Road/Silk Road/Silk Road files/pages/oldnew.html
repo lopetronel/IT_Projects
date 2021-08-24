@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The Story of the Silk Road">
+		<meta name="author" content="Leon Lopetrone">
+		<meta name="robots" content="noindex, nofollow">
+		<link rel="icon" href="../img/polen.ico" type="image/x-icon">
+		<title>Silk Road - Old vs. New</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		<div id="space"></div>
+		<header>
+			
+			 <h1 class="title">The Story of the <u>Silk Road</u></h1>
+			
+			
+			
+		</header>
+		<div class="sticky">
+		<br>
+		<nav>
+			<ul>
+				<li><a class="home" href="../index.html" >HOME</a></li>
+				<li class="activeblock"><a class="oldnew active" href="oldnew.html">OLD VS. NEW</a></li>
+				<li><a class="geschichte" href="geschichte.html">GESCHICHTE</a></li>
+				<li><a class="alltag" href="heutzutage.html">HEUTZUTAGE</a></li>	
+			</ul>
+			</nav>
+			
+		</div>
+		<div class="anchor"></div>
+		
+		<section>
+			
+			
+		<h3>Die alte Seidenstrasse:</h3>
+		<div>
+			
+			<img id="imageCarousel" alt="landscape1" src="../img/landscape1.jpg" width="850px" height="500px">
+			
+		</div>
+			<br>
+			<br>
+			<h4>
+			<table>
+				<tr class="grey">
+					<td class="td1">1. Anhaltspunkt</td>
+					<td class="td2">Xi’an</td>
+					<td>Der Anfang der Seidenstrasse</td>
+				</tr>
+				<tr class="orange">
+					<td class="td1">2. Anhaltspunkt</td>
+					<td class="td2">Tianshui</td>
+					<td>Maiji Höhlen, Fuxi Tempel und Wasservorhang Grotten</td>
+				</tr>
+				<tr class="grey">
+					<td class="td1">3. Anhaltspunkt</td>
+					<td class="td2">Zhangye Danxia Landschaft</td>
+					<td>Rotes Gestein und Regenbogen-Kämme</td>
+				</tr>
+				<tr class="orange">
+					<td class="td1">4. Anhaltspunkt</td>
+					<td class="td2">Jiayuguan</td>
+					<td>der Jiayuguan Pass und die Hängende Mauer</td>
+				</tr>
+				<tr class="grey">
+					<td class="td1">5. Anhaltspunkt</td>
+					<td class="td2">Dunhuang</td>
+					<td>Mogao-Grotten, Yadan Landform und Mondsichel-See</td>
+				</tr>
+				<tr class="orange">
+					<td class="td1">6. Anhaltspunkt</td>
+					<td class="td2">Kuqa</td>
+					<td>Die Ruinen des Subash Tempels und der Kuqa Grand Canyon</td>
+				</tr>
+				<tr class="grey">
+					<td class="td1">7. Anhaltspunkt</td>
+					<td class="td2">Turpan</td>
+					<td>das Suleiman Minaret und das Bewässerungssystem, der Kanatbrunnen</td>
+				</tr>
+				<tr class="orange">
+					<td class="td1">8. Anhaltspunkt</td>
+					<td class="td2">Taklamakan</td>
+					<td>die Taklamakan-Wüste</td>
+				</tr>
+				<tr class="grey">
+					<td class="td1">9. Anhaltspunkt</td>
+					<td class="td2">Kashgar</td>
+					<td>Id-Kah-Moschee, Handwerkergasseund der Tier Bazar</td>
+				</tr>
+				<tr class="orange">
+					<td class="td1">10. Anhaltspunkt</td>
+					<td class="td2">Karakul See</td>
+					<td>Der Karakul See (übersetzt der schwarze See)</td>
+				</tr>
+			</table>
+			</h4>
+		<br>
+		<h4><p>Die alte Seidenstraße ist die Bezeichnung für ein Netz alter Handelswege zwischen China, Zentralasien und dem Mittelmeerraum. Der lange und verwundene Landweg im Nordwesten des Chineschen Reiches hat eine 2000-jährige Geschichte.</p>
+		<br><p>Den Anfang nimmt die alte Handelsroute in den alten Hauptstädten Luoyang und Xi'an, führt nach Lanzhou, wo der Gelbe Fluss erreicht wird und folgt dann dem "Hexi-Korridor" durch Wüsten und Gebirge nach Zentralasien und schließlich weiter nach Europa.</p></h4>
+		<br>
+		
+		
+	<h3>Die neue Seidenstrasse:</h3>
+	<h4><p>Chinas Belt and Road Initiative ist ein ambitioniertes Projekt, um Asien sowohl mit Afrika als auch Europa auf dem Land- und Seeweg miteinander zu verbinden. Bezogen auf Europa ist hier ausschließlich die Landverbindung gemeint. Mit insgesamt 6 Korridoren soll die Integration der beteiligten Regionen, der Handel mit diesen, sowie wirtschaftliches Wachstum für dieselben gefördert werden.</p>
+			<br><p>Der Name of dieses Projekts geht auf die alte Seidenstraße zurück, die vor rund 2000 Jahren während der Han Dynastie entstanden ist. Ein Netzwerk historischer Handelswege, die über Jahrhunderte China mit dem Mittelmeerraum verbunden haben. Die Belt and Road Initiative (BRI) wird häufig, vor allem durch China selbst, als One Belt One Road bezeichnet.</p></h4>
+	
+	
+	</section>
+		
+		<script>
+			var myIndex = 0;
+			links = ["../img/landscape1.jpg", "../img/landscape2.jpg", "../img/landscape3.jpg", "../img/landscape4.jpg", "../img/landscape5.jpg", "../img/landscape6.jpg", "../img/landscape7.jpg", "../img/landscape8.jpg", "../img/landscape9.jpg", "../img/landscape10.jpg"]
+			carousel();
+
+			function carousel() {
+			var i;
+			var x = document.getElementById("imageCarousel");
+			x.src = links[myIndex]; 	
+			myIndex++;
+			if (myIndex > links.length - 1) {myIndex = 0}    
+			setTimeout(carousel, 2000);
+			}
+			
+		</script>
+		
+
+		
+		<div class="anchor"></div>
+		</div>
+	</body>
+</html>
+		
